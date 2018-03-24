@@ -1,0 +1,25 @@
+{
+    "compilerOptions": {
+        "lib": [
+            "dom",
+            "es5",
+            "es2015",
+            "es2015.promise"
+        ],
+        "allowJs": true,
+        "outDir": "./built/",
+        "sourceMap": true,
+        "strict": false,
+        "noImplicitReturns": true,
+        "module": "es2015",
+        "moduleResolution": "node",
+        "emitDecoratorMetadata": true,
+        "experimentalDecorators": true,
+        "strictPropertyInitialization": false,
+        "allowSyntheticDefaultImports": true,
+        "target": "es2015"
+    },
+    "include": [
+        "./src/**/*"
+    ]
+}
